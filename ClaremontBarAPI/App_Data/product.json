@@ -1,0 +1,16 @@
+[
+  {
+    "ProductName": "Gin Tonic",
+    "Id": 1,
+    "Description": "4cl Gin, Tonic, Lemon, Ice",
+    "ProductCategory": "Long Drink",
+    "Price": 10
+  },
+  {
+    "ProductName": "Dry Martini",
+    "Id": 2,
+    "Description": "1cl Vermouth, 2cl Gin, Olive",
+    "ProductCategory": "Cocktail",
+    "Price": 10.0
+  }
+]

@@ -1,0 +1,33 @@
+﻿<div class="panel panel-primary" ng-controller="ProductListCtrl as vm">
+
+    <div class="panel-heading" style="font-size:large">Product List</div>
+
+    <div class="panel-body">
+        <table class="table">
+            <thead>
+                <tr style="font-weight:bold">
+                    <td>Id</td>
+                    <td>Name</td>
+                    <td>Description</td>
+                    <td>Category</td>
+                    <td>Price</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="product in vm.products">
+                    <td>{{product.id}}</td>
+                    <td><a ui-sref="productEdit({id: product.id})">{{product.productName}}</a></td>
+                    <td>{{product.description}}</td>
+                    <td>{{product.productCategory}}</td>
+                    <td>{{product.price | currency}}</td>
+                    <td><a class="btn btn-link" ng-click="vm.delete(product.id)"><i class="glyphicon glyphicon-remove"></i></a>
+                </tr>
+            </tbody>
+        </table>
+        <div ng-show="vm.message">
+            <div>
+                <pre style="font: inherit">{{vm.message}}</pre>
+            </div>
+        </div>
+    </div>
+</div>
