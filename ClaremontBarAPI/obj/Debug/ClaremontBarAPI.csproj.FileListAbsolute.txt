@@ -1,4 +1,3 @@
-D:\projects\ClaremontBarAPI\ClaremontBarAPI\bin\ApplicationInsights.config
 D:\projects\ClaremontBarAPI\ClaremontBarAPI\bin\roslyn\csc.exe
 D:\projects\ClaremontBarAPI\ClaremontBarAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 D:\projects\ClaremontBarAPI\ClaremontBarAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll

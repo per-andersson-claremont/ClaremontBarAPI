@@ -10,6 +10,7 @@
                     <td>Name</td>
                     <td>Description</td>
                     <td>Category</td>
+                    <td>Spirit</td>
                     <td>Price</td>
                 </tr>
             </thead>
@@ -19,6 +20,7 @@
                     <td><a ui-sref="productEdit({id: product.id})">{{product.productName}}</a></td>
                     <td>{{product.description}}</td>
                     <td>{{product.productCategory}}</td>
+                    <td>{{product.spirit}}</td>
                     <td>{{product.price | currency}}</td>
                     <td><a class="btn btn-link" ng-click="vm.delete(product.id)"><i class="glyphicon glyphicon-remove"></i></a>
                 </tr>

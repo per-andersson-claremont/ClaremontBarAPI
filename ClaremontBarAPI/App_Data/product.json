@@ -4,13 +4,47 @@
     "Id": 1,
     "Description": "4cl Gin, Tonic, Lemon, Ice",
     "ProductCategory": "Long Drink",
-    "Price": 10
+    "Spirit": "Gin",
+    "Price": 10.0
   },
   {
     "ProductName": "Dry Martini",
     "Id": 2,
     "Description": "1cl Vermouth, 2cl Gin, Olive",
     "ProductCategory": "Cocktail",
+    "Spirit": "Gin",
     "Price": 10.0
+  },
+  {
+    "ProductName": "Whiskey Sour",
+    "Id": 3,
+    "Description": "4cl Bourbon, 2cl Lemon Juice, 1.5cl Sugar Syrup",
+    "ProductCategory": "Cocktail",
+    "Spirit": "Whiskey",
+    "Price": 12.0
+  },
+  {
+    "ProductName": "Seven and Seven",
+    "Id": 4,
+    "Description": "4cl Seagram's Seven Crown, 12cl SevenUp, Lemon",
+    "ProductCategory": "Long Drink",
+    "Spirit": "Whiskey",
+    "Price": 11.0
+  },
+  {
+    "ProductName": "Sex on the Beach",
+    "Id": 5,
+    "Description": "2cl Vodka, 2cl Cointreau, 2cl Passoã, 2cl Orange Juice",
+    "ProductCategory": "Long Drink",
+    "Spirit": "Vodka",
+    "Price": 10.50
+  },
+  {
+    "ProductName": "Carlsberg Export",
+    "Id": 6,
+    "Description": "Lager. Denmark. 50cl. 4.6%",
+    "ProductCategory": "Beer",
+    "Spirit": null,
+    "Price": 3.50
   }
 ]

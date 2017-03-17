@@ -11,6 +11,8 @@ namespace ClaremontBarAPI.Models
 
         public string ProductCategory { get; set; }
 
+        public string Spirit { get; set; }
+
         [Required(ErrorMessage = "Price is required", AllowEmptyStrings = false)]
         public decimal Price { get; set; }
     }
